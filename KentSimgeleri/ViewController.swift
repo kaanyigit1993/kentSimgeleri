@@ -37,6 +37,8 @@ class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSou
         landMarkImages.append(UIImage(named: "stonehenge")!)
         landMarkImages.append(UIImage(named: "tacmahal")!)
         
+        
+        navigationItem.title = "Kent Simgeleri"
     }
     
     
