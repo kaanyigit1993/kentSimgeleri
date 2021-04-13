@@ -13,6 +13,12 @@
 		CFC8088426262CA800DDA6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC8088226262CA800DDA6E0 /* Main.storyboard */; };
 		CFC8088626262CA900DDA6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC8088526262CA900DDA6E0 /* Assets.xcassets */; };
 		CFC8088926262CA900DDA6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC8088726262CA900DDA6E0 /* LaunchScreen.storyboard */; };
+		CFC808952626376100DDA6E0 /* kremlin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFC808902626376100DDA6E0 /* kremlin.jpeg */; };
+		CFC808962626376100DDA6E0 /* stonehenge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFC808912626376100DDA6E0 /* stonehenge.jpeg */; };
+		CFC808972626376100DDA6E0 /* tacmahal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFC808922626376100DDA6E0 /* tacmahal.jpeg */; };
+		CFC808982626376100DDA6E0 /* colosseum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFC808932626376100DDA6E0 /* colosseum.jpeg */; };
+		CFC808992626376100DDA6E0 /* greatwall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFC808942626376100DDA6E0 /* greatwall.jpeg */; };
+		CFC8089B262640DD00DDA6E0 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8089A262640DD00DDA6E0 /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CFC8088526262CA900DDA6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC8088826262CA900DDA6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC8088A26262CA900DDA6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC808902626376100DDA6E0 /* kremlin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kremlin.jpeg; path = ../../kremlin.jpeg; sourceTree = "<group>"; };
+		CFC808912626376100DDA6E0 /* stonehenge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stonehenge.jpeg; path = ../../stonehenge.jpeg; sourceTree = "<group>"; };
+		CFC808922626376100DDA6E0 /* tacmahal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tacmahal.jpeg; path = ../../tacmahal.jpeg; sourceTree = "<group>"; };
+		CFC808932626376100DDA6E0 /* colosseum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = colosseum.jpeg; path = ../../colosseum.jpeg; sourceTree = "<group>"; };
+		CFC808942626376100DDA6E0 /* greatwall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greatwall.jpeg; path = ../../greatwall.jpeg; sourceTree = "<group>"; };
+		CFC8089A262640DD00DDA6E0 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +73,14 @@
 				CFC8088026262CA800DDA6E0 /* ViewController.swift */,
 				CFC8088226262CA800DDA6E0 /* Main.storyboard */,
 				CFC8088526262CA900DDA6E0 /* Assets.xcassets */,
+				CFC808932626376100DDA6E0 /* colosseum.jpeg */,
+				CFC808942626376100DDA6E0 /* greatwall.jpeg */,
+				CFC808902626376100DDA6E0 /* kremlin.jpeg */,
+				CFC808912626376100DDA6E0 /* stonehenge.jpeg */,
+				CFC808922626376100DDA6E0 /* tacmahal.jpeg */,
 				CFC8088726262CA900DDA6E0 /* LaunchScreen.storyboard */,
 				CFC8088A26262CA900DDA6E0 /* Info.plist */,
+				CFC8089A262640DD00DDA6E0 /* imageViewController.swift */,
 			);
 			path = KentSimgeleri;
 			sourceTree = "<group>";
@@ -126,6 +144,11 @@
 			files = (
 				CFC8088926262CA900DDA6E0 /* LaunchScreen.storyboard in Resources */,
 				CFC8088626262CA900DDA6E0 /* Assets.xcassets in Resources */,
+				CFC808972626376100DDA6E0 /* tacmahal.jpeg in Resources */,
+				CFC808952626376100DDA6E0 /* kremlin.jpeg in Resources */,
+				CFC808962626376100DDA6E0 /* stonehenge.jpeg in Resources */,
+				CFC808992626376100DDA6E0 /* greatwall.jpeg in Resources */,
+				CFC808982626376100DDA6E0 /* colosseum.jpeg in Resources */,
 				CFC8088426262CA800DDA6E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +162,7 @@
 			files = (
 				CFC8088126262CA800DDA6E0 /* ViewController.swift in Sources */,
 				CFC8087D26262CA800DDA6E0 /* AppDelegate.swift in Sources */,
+				CFC8089B262640DD00DDA6E0 /* imageViewController.swift in Sources */,
 				CFC8087F26262CA800DDA6E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
